@@ -182,7 +182,7 @@ EOF
   public function getStylesheets()
   {
     return array( 
-    '/sfDoctrineAutoCompleteRelationPlugin/css/sfWidgetDoctrineAutoCompleteRelation.css' => 'screen'
+    '/sfDoctrineAutoCompleteRelationPlugin/css/sfWidgetDoctrineAutoCompleteRelation.css' => 'screen',
     '/sfDoctrineAutoCompleteRelationPlugin/css/jquery-ui-1.8.custom.css' => 'screen'
     
     );
