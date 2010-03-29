@@ -168,7 +168,10 @@ EOF
    */
   public function getJavascripts()
   {
-    return array('/sfDoctrineAutoCompleteRelationPlugin/js/jquery.autocompleter.js');
+    return array(
+        '/sfDoctrineAutoCompleteRelationPlugin/js/jquery-1.4.2.min.js'
+        '/sfDoctrineAutoCompleteRelationPlugin/js/jquery-ui-1.8.custom.min.js'
+    );
   }
   
     /**
@@ -178,7 +181,11 @@ EOF
    */
   public function getStylesheets()
   {
-    return array('/sfDoctrineAutoCompleteRelationPlugin/css/sfWidgetDoctrineAutoCompleteRelation.css' => 'screen');
+    return array( 
+    '/sfDoctrineAutoCompleteRelationPlugin/css/sfWidgetDoctrineAutoCompleteRelation.css' => 'screen'
+    '/sfDoctrineAutoCompleteRelationPlugin/css/jquery-ui-1.8.custom.css' => 'screen'
+    
+    );
   }
 
   public function __clone()
