@@ -1,0 +1,5 @@
+#sf_admin_container .doctrineautocompleterelation-associated { margin : 0 0 10px 0; padding : 0;}
+#sf_admin_container .doctrineautocompleterelation-associated li{ margin : 0; padding : 5px ;list-style-type : none; border : 1px solid #ddd; border-bottom : none}
+#sf_admin_container .doctrineautocompleterelation-associated li.last{ border-bottom : 1px solid #ddd; }
+#sf_admin_container .doctrineautocompleterelation-associated li a.remove{ margin-right : 15px; background : url("../images/delete.png") no-repeat scroll 0 0 transparent; width :16px; height :16px; }
+#sf_admin_container .doctrineautocompleterelation_select{  }
