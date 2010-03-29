@@ -1,25 +1,23 @@
 <?php
 
 /*
- * This file is part of the symfony package.
- * (c) Fabien Potencier <fabien.potencier@symfony-project.com>
+ * This file is part of the sfWidgetDoctrineAutoCompleteRelation package.
+ * (c) Gregory Schurgast <greg@negko.com>
  * 
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
 
 /**
- * sfWidgetFormSelectDoubleList represents a multiple select displayed as a double list.
+ * sfWidgetDoctrineAutoCompleteRelation represents a autocomplete Relation manager.
  *
  * This widget needs some JavaScript to work. So, you need to include the JavaScripts
  * files returned by the getJavaScripts() method.
  *
- * If you use symfony 1.2, it can be done automatically for you.
  *
  * @package    symfony
  * @subpackage widget
- * @author     Fabien Potencier <fabien.potencier@symfony-project.com>
- * @version    SVN: $Id: sfWidgetFormSelectDoubleList.class.php 12412 2008-10-29 14:19:06Z fabien $
+ * @author     Gregory Schurgast <greg@negko.com>
  */
 class sfWidgetDoctrineAutoCompleteRelation extends sfWidgetForm
 {
@@ -30,6 +28,8 @@ class sfWidgetDoctrineAutoCompleteRelation extends sfWidgetForm
    *
    *  * choices:            An array of possible choices (required)
    *  * class:              The main class of the widget
+   *  * class_select:       The main class of the widget
+   *  * label_unassociated: The label for unassociated
    *  * label_associated:   The label for associated
    *  * unassociate:        The HTML for the unassociate link
    *  * associate:          The HTML for the associate link
