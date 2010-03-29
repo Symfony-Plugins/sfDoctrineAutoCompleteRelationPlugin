@@ -169,7 +169,7 @@ EOF
   public function getJavascripts()
   {
     return array(
-        '/sfDoctrineAutoCompleteRelationPlugin/js/jquery-1.4.2.min.js'
+        '/sfDoctrineAutoCompleteRelationPlugin/js/jquery-1.4.2.min.js',
         '/sfDoctrineAutoCompleteRelationPlugin/js/jquery-ui-1.8.custom.min.js'
     );
   }
